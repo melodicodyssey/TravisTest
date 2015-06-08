@@ -1,0 +1,20 @@
+# .travis.yml:
+
+# language: node_js
+
+# node_js:
+#   - "0.12"
+
+script:
+
+after_success:
+
+after_failure:
+  # - run some other script if build fails
+
+notifications:
+  email:
+    recipients:
+      - stevedbauer@gmail.com
+    on_success: always
+    on_failure: always
