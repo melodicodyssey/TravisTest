@@ -12,6 +12,7 @@ script:
   - echo "Hello World"
 
 after_success:
+  - bash deploy/build_success.sh
 
 after_failure:
   # - run some other script if build fails
