@@ -6,7 +6,7 @@ git fetch origin index1
 echo "Checking out index1:"
 git checkout remotes/origin/index1
 echo "Creating new branch index1:"
-git checkout -b 2.0.4-test_setup1
+git checkout -b index1
 echo "Displaying list of branches:"
 git branch -a
 echo "Displaying commit log:"
