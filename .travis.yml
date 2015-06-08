@@ -5,7 +5,11 @@
 # node_js:
 #   - "0.12"
 
+before_install:
+  - gem install rake
+
 script:
+  - echo "Hello World"
 
 after_success:
 
