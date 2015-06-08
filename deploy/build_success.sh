@@ -1,6 +1,9 @@
 echo "Accessing build_success.sh"
 echo "Branch:"
 echo $TRAVIS_BRANCH
+echo "configuring credentials:"
+git config user.email $GITHUB_EMAIL
+git config user.name $GITHUB_NAME
 echo "Adding remote:"
 git remote add my https://github.com/melodicodyssey/TravisTest.git
 echo "Fetching index1:"
