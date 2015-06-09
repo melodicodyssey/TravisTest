@@ -18,5 +18,7 @@ echo "Displaying commit log:"
 git log -5
 echo "Merging from $TRAVIS_BRANCH:"
 git merge $TRAVIS_BRANCH
+echo "Committing merge"
+git commit -m "Merging to index1 via Travis"
 echo "Pushing:"
 git push my index1
