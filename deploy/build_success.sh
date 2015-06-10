@@ -17,6 +17,7 @@ git branch -a
 echo "Displaying commit log:"
 git log -5
 echo "Merging from $TRAVIS_BRANCH:"
+"merging branches"
 git merge $TRAVIS_BRANCH
 echo "Committing merge"
 git commit -m "Merging to index1 via Travis"
